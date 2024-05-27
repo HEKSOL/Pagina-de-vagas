@@ -1,0 +1,42 @@
+.talento-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talento-container img{
+    width: 80%;
+    height: 400px;
+    top: 298px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+}
+.talento__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 96px;
+    left: 80px;
+    padding: 0px, 32px, 0px, 32px;
+    gap: 32px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+.talento-container span{
+    font-size:14px;
+    font-weight:500;
+    color: var(--vermelho-principal);
+    background: #8E24240D;
+    border-radius: 16px;
+    padding: 4px 12px 4px 12px;
+}
+.talento-container h2{
+    font-size:36px ;
+    font-weight:600 ;
+
+}
+.talento-container p{
+    font-size:20px ;
+    font-weight:400 ;
+    color: var(--texto-secundario);
+}

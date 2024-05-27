@@ -1,0 +1,38 @@
+.footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 32px;
+     background:#F9FAFB;
+     padding: 96px, 0px, 96px, 0px;
+     margin-top: 100px;
+     
+}
+.footer__botao{
+     display: flex;
+     gap: 16px;
+} 
+.footer input{
+    padding: 8px;
+}
+
+.footer h2{
+    font-size:36px ;
+    margin-top: 40px;
+    color: var(--titulo-principal);
+    font-weight:600 ;
+}
+
+.footer p {
+    font-weight:400 ;
+    font-size:20px ;
+    color: var(--texto-secundario);
+}
+
+.footer span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #98A2B3;
+    margin-bottom: 40px;
+    
+}

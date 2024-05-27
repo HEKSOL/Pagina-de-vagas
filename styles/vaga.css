@@ -1,0 +1,42 @@
+.vaga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.vaga h2{
+    font-weight:500 ;
+    font-size:20px ;
+    color: var(--titulo-principal);
+    margin-right: 920px;
+    margin-bottom: 30px;
+}
+.vaga h3{
+    font-weight:500 ;
+    font-size:20px ;
+    color: var(--titulo-principal);
+    margin-right: 700px;
+    margin-bottom: 30px;
+}
+.vaga__conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 25px;
+    padding: 25px;
+    gap: 24px;
+    border: 1px solid ;
+    border-radius: 16px;
+}
+.informacoes{
+    display: flex;
+    gap: 15px;
+    font-weight:500 ;
+    font-size:16px ;
+    color:var(--texto-secundario) ;
+}
+.vaga span{
+   font-weight:500 ;
+   font-size:18px ;
+}

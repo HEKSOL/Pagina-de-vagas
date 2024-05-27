@@ -1,0 +1,28 @@
+.metricas-container{
+    display: flex;
+    align-items: center;
+    margin:150px 25px 0px 25px;
+    margin-left: 130px;
+}
+.metricas-container span{
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho-principal);
+}
+.metricas-container h2{
+    font-weight:500 ;
+    font-size:18px ;
+    color: var(--titulo-principal);
+    margin-top: 15px;
+}
+.metricas-container p {
+    font-weight:400;
+    width: 60%;
+    font-size:16px;
+    color: var(--texto-secundario);
+    margin-top: 15px;
+}
+.metrica__conteudo{
+    display: flex;
+    flex-direction: column;
+}

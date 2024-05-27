@@ -1,0 +1,29 @@
+.secao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.secao__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.secao__conteudo span{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--vermelho-principal);
+}
+.secao__conteudo h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--titulo-principal);
+    margin: 15px 15px;
+}
+.secao__conteudo p{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px;
+    color: var(--texto-secundario);
+}
+
